@@ -1,4 +1,4 @@
-# DataStructuresAlgorithms
+# DataStructures & Algorithms
  The Gist of DataStructures and Algorithms
  
 How key core data structures and algorithms work.
