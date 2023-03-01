@@ -1,4 +1,4 @@
-# DataStructuresAlgorithms
+# DataStructures & Algorithms
  The Gist of Arrays
 
 1. Why are Arrays Important?
