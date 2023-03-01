@@ -23,3 +23,18 @@
 ~They are of a fixed size (Not applicable to Swift)
 ~Arrays offer the ability to randomly access data. This is huge with Arrays, however, Linklist, Binary Search Trees, Stacks and queues cannot perform this ability. 
 
+**Insert: Copying, Inserting, and Incrementing**
+
+~ For an Example: If we want to insert in index 1, we have to copy up by one space to free up the index.
+
+~A counter can be added to change the size of the array. 
+
+~LinearTime O(n) is used during the copy up stage which requires us to loop through the entire elements in the array and shift everything up. Delete is similar.
+
+**Delete**
+
+~Similar to Insert, but we are copying down. 
+~No need to remove at the index 1, we can take all the elements above 1, then 2, 3, and 4 up and shift them down.
+~This will override what we have added in LinearTime O(n)
+
+
