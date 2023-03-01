@@ -13,7 +13,7 @@ Quadratic Time O(n^2)
 It’s all about dominate operations comparing along two axis (Time: How fast everything goes and Space: How much memory is needed)
 
 2. How it works?
-- Takes an array of Elements and loop through them until it finds the element we’re searching for it performs the functionality.
+- Takes an array of Elements and loop through them until it finds the element we’re searching for it. Once it is located it will perform the functionality.
 
 3. Common runtimes when talking about performance of algorithms?
 -If we increase the number of elements in the algorithm it will take longer, which is linear time. O(n) - Number of for loops is proportional to the number of elements we pass in.
