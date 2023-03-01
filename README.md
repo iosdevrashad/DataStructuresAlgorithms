@@ -1,5 +1,5 @@
-# DataStructuresAlgorithms
- The Gist of DataStructures and Algorithms
+# DataStructures & Algorithms
+ The Gist of Commonly used BigONotations
 
 BigONotation: The Most Common Used
 
