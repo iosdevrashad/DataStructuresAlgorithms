@@ -1,32 +1,25 @@
 # DataStructuresAlgorithms
- The Gist of DataStructures and Algorithms
+ The Gist of Arrays
 
-BigONotation: The Most Common
+1. Why are Arrays Important?
 
-Constant Time O(1),
-Linear Time O(n),
-Logarithmic Time O(log n),
-Quadratic Time O(n^2)
+~Most commonly used they are everywhere, such as, puzzles, games, transmitting data. It’s a core part of every computer language. 
 
-1. What is it?
--Language computer scientist use when comparing the performance of algorithms.
-It’s all about dominate operations comparing along two axis (Time: How fast everything goes and Space: How much memory is needed)
+2. What happened when array exceeds its capacity when it gets too big?
 
-2. How it works?
-- Takes an array of Elements and loop through them until it finds the element we’re searching for it. Once it is located it will perform the functionality.
+~GET/SET at any location. If you know the index of the element you can reach and get the element. 
 
-3. Common runtimes when talking about performance of algorithms?
--If we increase the number of elements in the algorithm it will take longer, which is linear time. O(n) - Number of for loops is proportional to the number of elements we pass in.
--Constant Time: O(1) - Doesn’t do any looping or anything complex. It does calculations and return quickly as possible. Very Quick and cannot go any faster.
--Logarithmic Time : O(log n) - When we half an element and run it through the loop, log n = 128, 64, 32, 16, 8, 4, 2, 1. (Used in Binary Search Tree)
--O(n^2)
+3. What is an Array?
 
-4. Why is it Important?
--Language and Career Preparation. Language allows you compare relative performance how different data structures and algorithms work in regards to each other. BigOCheatSheet lists the different of time complexity of the data structure. Appending an element the documentation will state the O(1) can be very quick, however, when array needs to resize itself or if storage is shared with one another O(n) is used where it can take longer.
--Getting a count from a set is O(1)
+~Collection of elements of the same type, that can be set and retireved by a continuous series of intergers or indices.
 
-5. Ways of Improving Performance:
--Trading off space for time, by utilizing HashMaps.
--When discussing O(n): Always think about the worst case performance always it shows how the algorithm works.
--Always try to trade off time and space for performance improvements.
-*HashMaps and Dictionaries are important for swapping for time and space*
+4. How do they work? 
+
+~Index start with 0, 1, 2, 3, It determines where things happen, this is how we control the arrays that we want manipulated. 
+
+5. Why are they so Special?
+
+~Arrays can hold almost anything
+~They are of a fixed size (Not applicable to Swift)
+~Arrays offer the ability to randomly access data. This is huge with Arrays, however, Linklist, Binary Search Trees, Stacks and queues cannot perform this ability. 
+
