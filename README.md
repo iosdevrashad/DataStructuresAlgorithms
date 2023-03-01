@@ -1,7 +1,7 @@
 # DataStructuresAlgorithms
  The Gist of DataStructures and Algorithms
 
-BigONotation: The Most Common
+BigONotation: The Most Common Used
 
 Constant Time O(1),
 Linear Time O(n),
