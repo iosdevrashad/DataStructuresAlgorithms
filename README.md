@@ -3,9 +3,9 @@
 
 BigONotation: The Most Common
 
--Constant Time O(1)
--Linear Time O(n)
--Logarithmic Time O(log n)
+-Constant Time O(1),
+-Linear Time O(n),
+-Logarithmic Time O(log n),
 -Quadratic Time O(n^2)
 
 1. What is it?
