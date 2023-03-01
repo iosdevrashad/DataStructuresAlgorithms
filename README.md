@@ -32,9 +32,12 @@
 ~LinearTime O(n) is used during the copy up stage which requires us to loop through the entire elements in the array and shift everything up. Delete is similar.
 
 **Delete**
-
 ~Similar to Insert, but we are copying down. 
 ~No need to remove at the index 1, we can take all the elements above 1, then 2, 3, and 4 up and shift them down.
-~This will override what we have added in LinearTime O(n)
+~This will override what we have added in LinearTime O(n).
 
-
+**A Growing Array**
+~Arrays are at a fixed size, if there is no room left for the new array.
+~Double the size of the array by creating a new one, then copy over the new elements. 
+~Now the array is big enough which leaves us to insert the new array
+~This takes the LinearTime Method O(n)
