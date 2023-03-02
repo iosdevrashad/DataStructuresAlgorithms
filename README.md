@@ -41,3 +41,6 @@
 ~Double the size of the array by creating a new one, then copy over the new elements. 
 ~Now the array is big enough which leaves us to insert the new array
 ~This takes the LinearTime Method O(n)
+
+**What’s different in swift with Arrays**
+~Most other languages requires a dedicated structure or specifying of an array. Swift gives you the option to do so as well, however, it is not required that you do so unless specified. 
